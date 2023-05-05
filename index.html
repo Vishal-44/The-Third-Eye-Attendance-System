@@ -4,39 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" media="all">
-    <title>Attendance System</title>
+    <link rel = "stylesheet" href = "index.css" media= "all"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;900&family=Zilla+Slab&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@100;200;300;400;500;600;900&family=Zilla+Slab&display=swap" rel="stylesheet">   
+<title>Document</title>
 </head>
 <body>
-    <main>
-        <h1 id="heading" >ATTENDANCE SYSTEM</h1>
-        <div id = "box-container">
-            <div class="box">
-                <h3 class = "text" >ADD NEW STUDENT</h3>
-                <h3 class = "text">MARK ATTENDANCE</h3>
-                <h3 class = "text">ADMIN LOGIN</h3>
-            </div>
-            <div class = "box">
-                <form action="" >
-                    <h3>FULL NAME</h3>
-                    <input type="text" >
-                    <h3>ROLL NUMBER</h3>
-                    <input type="text">
-                    <h3>BRANCH</h3>
-                    <select>
-                        <option>CSAIML-2A</option>
-                        <option>CSAIML-2B</option>
-                        <option>CSAI-2A</option>
-                        <option>CSAI-2B</option>
-                        <option>CSDS-2A</option>
-                        <option>CSDS-2B</option>
-                    </select>
-                    <h2 id = "proceed">PROCEED</h2>
-                    
-                </form>
-            </div>
-        </div>
-    </main>
+    <h1 class="header"><font class = "white">THE&nbsp;</font>  <font class="green">THIRD&nbsp;</font>   <font class = "white">EYE</font></h1>
 
+        <div class ="main_container">
+
+            <div class="box">
+
+                <div class="box_heading">  
+                  <font class = "menu">MENU</font>
+                </div>
+                <button  id = "btn1"> 
+                    Add Student
+                </button>
+
+                <button  id ="btn2"> 
+                    Mark Attendance
+                </button>
+            </div>
+
+            <div class="box">
+
+                <div class="box">
+
+                    <div class="box_heading"> 
+                        <font class = "studentDetail">Student Details</font>
+                    </div>
+
+                    <form class ="form">
+                        <h4>Enter your full name</h4>
+                        <input type="text">
+                        <label>Full Name</label>
+                        <h4>Enter your roll number</h4>
+                        <input type="text">
+                        <label>Roll Number</label>
+                        <h4>Select your branch and section</h4>
+                        <label>Branch & Section</label>
+                        <select >
+                            <option value="">CSAIML-2A</option>
+                            <option value="">CSAIML-2B</option>
+                            <option value="">CSDS-2A</option>
+                            <option value="">CSDS-2B</option>
+                        </select>
+                    </form>
+                   
+                    <button  id = "submit"> 
+                        Submit
+                    </button>
+                </div>
+                
+            </div>
+
+        </div>
 </body>
 </html>
